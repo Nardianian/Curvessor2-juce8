@@ -1,0 +1,10 @@
+After cloning the entire fork move these files into their directories as shown below, overwriting the ones already present:
+"\oversimple\r8brain\r8bbase.h"
+"\oversimple\r8brain\CDSPFIRFilter.h"
+"\oversimple\r8brain\CDSPSincFilterGen.h"
+"\oversimple\r8brain\CDSPResampler.h"
+"\oversimple\oversimple\Oversampling.hpp"
+"\oversimple\avec\vectorclass\vectorf128.h"
+"\oversimple\avec\vectorclass\vectori128.h"
+"\oversimple\avec\vectorclass\vectorf256.h"
+"\juicy\Linkables.h"
