@@ -1,3 +1,8 @@
+# About this Fork
+I used Jucer version 8.0.10 with Visual Studio Community Edition 2022 version 17.14.17 on Windows 11 Home. I tried to prepare a project to support more plugin formats and audio drivers on Windows, to update the code for use with the latest versions (as of October 2025) of Juce and Visual Studio and to do some small code optimization to reduce the warnings: i didn't complete the optimization work however i reduced the warnings from over 200 to about 31 at least on my system. The modified code is in the files in the Source folder and in the "Files-To-Replace" folder whose files will replace the files of the same name in the various directories (see the "Read-this.txt" file). Jucer is ready to build plugins in VST2, VST3, LV2, AAX, and standalone formats with ASIO and Jack4Win support (the fork is for Windows). Remember to check the directories in the Jucer project file, especially those in the global path relating to the AAX, VST-2.4, Asio and Jack SDKs (the latter must be installed on your system). Please note that VST2 plugins require the Steinberg license. The AAX plugin cannot be used unless it is first activated/authorized following a specific procedure established by Avid, which requires - among other things - Avid and PACE/iLok accounts and the use of tools such as AAX Validator, Pro Tools Developer Bundle, PACE Eden Signing Tools, etc. 
+
+# Original Readme:
+
 # Curvessor 2
 
 ![Curvessor GUI](Images/screenshot.jpg?raw=true 'screenshot')
